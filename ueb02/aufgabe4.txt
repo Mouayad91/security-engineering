@@ -1,0 +1,9 @@
+od: Steht für octal dump und erzeugt informationen in einem spezifizierten
+format
+-t x4: Beschreibt den typ parameter und x4 beschreibt den format -> 4 byte
+länge hex code
+/dev/urandom: Zieldatei
+head -2: Gibt nur 2 Zeilen des outputs aus
+cut -c 17-: Nach 17 bytes wird geschnitten und nicht mehr ausgegeben
+sed -e "s/ //g": Nutzt regex zum entfernen von leerzeichen eines outputs
+|: Piped/weiterleitet den output eines jeden befehls

@@ -1,0 +1,60 @@
+Kommando: rm
+
+a) löscht Dateien, aber standardmäßig keine Directories
+b) /bin/rm
+c) rm text.doc
+d) unlink()
+
+Kommando: mv
+a) Kann Dateien oder Ordner umbenennen oder woanders verschieben
+b) /bin/mv
+c) mv foo bar
+d) rename()
+
+Kommando: chmod
+a) Zugriff einer Datei oder eines Ordners verwalten
+b) /bin/chmod
+c) chmod u=rwx, og=r file.txt
+d) chmod()
+
+Kommando: chown
+a) Ändert Besitzer einer Datei oder eines Ordners
+b) /usr/sbin/chown
+c) chown zubeir file.txt
+d) chown()
+
+Kommando: mkdir
+a) Erstellung von Dateien
+b) /bin/mkdir
+c) mkdir foo
+d) mkdir()
+
+Kommando: rmdir
+a) Löschen eines Ordner
+b) /bin/rmdir
+c) rmdir foo
+d) rmdir()
+
+Kommando: kill
+a) Sende signal an prozesse durch prozess id
+b) Eingebauter shell command
+c) kill -9 123456
+d) kill()
+
+Kommando: ln
+a) Erstellung von hardlinks und softlinks
+b) /bin/ln
+c) ln foo.txt foo-hard.txt
+d) link()
+
+Kommando: sleep
+a) Stopt ausführung eines Prozesses nach x sekunden
+b) /bin/sleep
+c) sleep 10
+d) sleep()
+
+Kommand: wget
+a) Runterladen von Dateien über das Netzwerk
+b) /usr/local/bin/wget
+c) wget https://code.jquery.com/jquery-3.6.0.min.js
+d) 
